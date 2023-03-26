@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="note_style_array">
+        <item>Vertical</item>
+        <item>Gorizontal</item>
+    </string-array>
+
+    <string-array name="note_style_values">
+        <item>Vertical</item>
+        <item>Gorizontal</item>
+    </string-array>
+
+
+    <string-array name="choose_theme_array">
+        <item>Purple</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="choose_theme_value">
+        <item>Purple</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="text_size_array">
+        <item>12sp</item>
+        <item>14sp</item>
+        <item>16sp</item>
+        <item>18sp</item>
+    </string-array>
+
+    <string-array name="text_size_value">
+        <item>12sp</item>
+        <item>14sp</item>
+        <item>16sp</item>
+        <item>18sp</item>
+    </string-array>
+
+</resources>

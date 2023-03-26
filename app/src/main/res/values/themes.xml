@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ShoppingList" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/low_pr2</item>
+        <item name="colorPrimaryVariant">#711281</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/low_pr2</item>
+        <item name="colorOnSecondary">@color/my_back_color</item>
+        <item name="colorSurfaceVariant">@color/white</item>
+
+        <item name="android:windowFullscreen">true</item>
+        <!-- Status bar color. -->
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/drawable</item>
+    </style>
+
+    <style name="Theme.ShoppingListDark" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="colorSurfaceVariant">@color/black</item>
+
+        <item name="android:windowFullscreen">true</item>
+        <!-- Status bar color. -->
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.ShoppingListLight" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="colorPrimaryVariant">@color/my_back_color</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/my_back_color</item>
+        <item name="colorSurfaceVariant">@color/white</item>
+
+        <item name="android:windowFullscreen">true</item>
+        <!-- Status bar color. -->
+
+    </style>
+
+
+
+    <style name="CheckBoxStyle" parent="Theme.MaterialComponents">
+    <item name="colorAccent">@color/white</item>
+    <item name="colorSecondary">@color/main</item>
+    </style>
+
+    <style name="CheckBoxStyle2" parent="Theme.MaterialComponents">
+        <item name="colorAccent">@color/main</item>
+        <item name="colorSecondary">@color/white</item>
+    </style>
+
+
+
+        <!-- Customize your theme here. -->
+</resources>

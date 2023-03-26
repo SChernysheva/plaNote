@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".Activities.NewTaskActivity"
+    android:background="?colorPrimary">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your task"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="?colorOnPrimary"
+        android:fontFamily="sans-serif"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/edit_task_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task name"
+        android:padding="10dp"
+        android:background="@drawable/custom_edit"
+        android:textColorHint="?colorOnPrimary"
+        android:textColor="?colorOnPrimary"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="text" />
+
+    <CheckBox
+        android:id="@+id/checkBox_important"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/CheckBoxStyle" />
+    <TextView
+        android:id="@+id/text_important_task"
+        android:textColor="?colorOnPrimary"
+        android:fontFamily="sans-serif"
+        android:text="Important Task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/save_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?colorOnPrimary"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="?colorPrimary"
+        android:textSize="16sp"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?colorOnPrimary"
+        android:layout_gravity="end"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="?colorPrimary"
+        android:textSize="16sp"
+        android:text="Cancel" />
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+

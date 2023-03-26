@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/general">
+
+    </PreferenceCategory>
+    <ListPreference
+        android:defaultValue="Vertical"
+        app:useSimpleSummaryProvider="true"
+        android:entries="@array/note_style_array"
+        android:entryValues="@array/note_style_values"
+        android:key="note_style_key"
+        android:icon="@drawable/tyh"
+        android:title="@string/chose_note_style" />
+
+    <Preference
+        android:title="Remove ads"
+        android:summary="Remove all ads from this app"
+        android:key="remove_ads"
+        android:icon="@drawable/baseline_delete_forever_24"
+        />
+    <PreferenceCategory android:title="Theme settings">
+
+    </PreferenceCategory>
+    <ListPreference
+        android:defaultValue="Dark"
+        app:useSimpleSummaryProvider="true"
+        android:entries="@array/choose_theme_array"
+        android:entryValues="@array/choose_theme_value"
+        android:key="theme_key"
+        android:icon="@drawable/baseline_style_24"
+        android:title="Choose theme" />
+    <PreferenceCategory android:title="Note text size">
+
+    </PreferenceCategory>
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/text_size_array"
+        app:useSimpleSummaryProvider="true"
+        android:entryValues="@array/text_size_value"
+        android:key="text_size_key"
+        android:icon="@drawable/baseline_sticky_note_2_24"
+        android:title="Choose note text size" />
+</PreferenceScreen>
