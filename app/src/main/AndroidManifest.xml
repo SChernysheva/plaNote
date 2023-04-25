@@ -6,7 +6,7 @@
 
 
     <application
-        android:name=".Activities.MainApp"
+        android:name="planote.example.shoppinglist.Activities.MainApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:enableOnBackInvokedCallback="true"
@@ -17,10 +17,10 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="tiramisu">
         <activity
-            android:name=".Settings.SettingsActivity"
+            android:name="planote.example.shoppinglist.Settings.SettingsActivity"
             android:exported="true" />
 
-        <activity android:name=".Activities.SplashActivity"
+        <activity android:name="planote.example.shoppinglist.Activities.SplashActivity"
             android:theme="@style/SplashTheme"
             android:exported="true">
             <intent-filter>
@@ -29,19 +29,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Activities.NewNoteActivity"
+        <activity android:name="planote.example.shoppinglist.Activities.NewNoteActivity"
             android:exported="true"/>
         <activity
-            android:name=".Activities.NewTaskActivity"
+            android:name="planote.example.shoppinglist.Activities.NewTaskActivity"
             android:exported="true" />
         <activity
-            android:name=".Activities.MainActivity"
+            android:name="planote.example.shoppinglist.Activities.MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <meta-data

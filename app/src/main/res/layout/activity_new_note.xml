@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".Activities.NewNoteActivity">
+    tools:context="planote.example.shoppinglist.Activities.NewNoteActivity">
 
     <TextView
         android:id="@+id/dataView"
@@ -54,6 +54,7 @@
                 android:gravity="start"
                 android:inputType="textMultiLine|textPersonName"
                 android:textSize="18sp"
+                android:textColor="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

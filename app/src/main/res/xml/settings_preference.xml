@@ -15,12 +15,6 @@
         android:icon="@drawable/tyh"
         android:title="@string/chose_note_style" />
 
-    <Preference
-        android:title="Remove ads"
-        android:summary="Remove all ads from this app"
-        android:key="remove_ads"
-        android:icon="@drawable/baseline_delete_forever_24"
-        />
     <PreferenceCategory android:title="Theme settings">
 
     </PreferenceCategory>
@@ -32,15 +26,7 @@
         android:key="theme_key"
         android:icon="@drawable/baseline_style_24"
         android:title="Choose theme" />
-    <PreferenceCategory android:title="Note text size">
 
-    </PreferenceCategory>
-    <ListPreference
-        android:defaultValue="1"
-        android:entries="@array/text_size_array"
-        app:useSimpleSummaryProvider="true"
-        android:entryValues="@array/text_size_value"
-        android:key="text_size_key"
-        android:icon="@drawable/baseline_sticky_note_2_24"
-        android:title="Choose note text size" />
+
+
 </PreferenceScreen>
